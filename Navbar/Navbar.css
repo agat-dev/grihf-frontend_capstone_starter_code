@@ -84,9 +84,6 @@ font-weight: 500;
 /* Styling for the logo in the navbar */
 .nav__logo img {
     height: 1.5rem;
-    border: solid 4px var(--primary-800, #2F4CBC);
-    border-radius: 50%;
-    padding: 0.4rem;
 }
 
 /* Styling for the logo text in the navbar */
