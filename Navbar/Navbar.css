@@ -14,12 +14,12 @@
 
 /* Styling for the main navigation bar */
 nav {
-    padding: 1.5rem;
     position: fixed;
     top: 0%;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
+    height: max-content;
     display: flex;
     align-items: center;
     justify-content: space-between;
