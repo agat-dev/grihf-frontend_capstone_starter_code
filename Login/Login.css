@@ -17,6 +17,7 @@
     margin-top: 10%; /* Top margin of 10% */
 }
 
+
 .login-text h2 {
     margin-bottom: 20px; /* Add bottom margin to the heading */
     text-align: center; /* Center-align text */
@@ -134,4 +135,16 @@ letter-spacing: 0.28px;
     border-radius: 15px;
     border: 1px solid var(--error-700, #E94F54);
     background: var(--error-700, #E94F54);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .btn,.form-group, .form-group input,.form-group label {
+        width: 100%; /* Set width for buttons */
+        max-width: 100%; /* Set width for buttons */
+        min-width: 100%; /* Set width for buttons */
+}
 }
